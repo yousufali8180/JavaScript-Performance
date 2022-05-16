@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Performance</h2>
+
+<p>If you expect to access a DOM element several times, access it once, and the use it as a local variable:</p>
+
+<p id="demo"></p>
+
+<script>
+const obj = document.getElementById("demo");
+obj.innerHTML = " Hello";
+</script>
+
+</body>
+</html> 
